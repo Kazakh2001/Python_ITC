@@ -1,0 +1,185 @@
+# Задача 3
+#a = 2897607
+#c= 2897607 % 3
+#if c == 0:
+#    b = a // 3
+#    d = b * b
+ #   number = str(d)
+#    a=len(number)
+#    print(f'Длина слов - {a}')
+#else: 
+#    print('Не делится без остатка')
+#
+#if len(number) > 10:
+#    a = number.replace('3','0')
+#    c=a[: 7]
+ #   print(f'Окончательное решение {c}')
+ #          
+#else:             
+#    print('Меньше  или ровно 10')
+ #Задача # 11
+#a = int(input('Выберите первое число '))
+#d = input('Выберите выражение')
+#c = int(input('Выберите второе число '))
+#if d == '+':
+#    r = a + c
+#    print(f'{a}+{c}={r}')
+#
+#elif d == '*':
+#     r = a * c
+#     print(f'{a}*{c} = {r}')
+#      
+#elif d == '-':
+#     r = a -c
+#     print(f'{a}-{c}={r}')
+#else:
+#    r = a / c
+#    print(f'{a} / {c} = {r}')
+#1
+#a=input('Первое слово')
+#b=input('Второе слово')
+#c=input('Третье  слово')
+#d=a+b+c
+#p#rint(len(d))
+#if len(d) > 20 and d.isalpha():
+#   c=d.index(max(d))
+#   d.pop(c)
+#a = 4
+#b = 6
+#c = '+'
+#r = a + b
+##d = input('Третье слово')
+#a.append(d)
+#print(a)
+#print(max(a))
+#r = b+c+d
+#if len(r) > 20:
+#    r.isalpha()
+#    d = max(a)
+#    a.remove(d)
+#    l = str(a)
+#    print(l.upper())
+ 
+
+#Задача 2
+#user= input('Зарегистрироваться')
+#a = user.endswith('@mail.ru')
+#b = user.endswith('@gmail.com')
+#if a== True or b == True:
+#    pasford = 123456
+#    print(pasford)
+#else:
+#    print('Не правильный формат почты')
+#past = int(input('Подтвердите пароль'))
+#if past ==pasford:
+#    print('Подтверждение прошло успешно')
+#else:
+#    print('Не правильный пароль')
+#Задача 3
+#3a = 2897607
+#b = a % 3
+#if b==0:
+#    c = a // 3
+#    d = c * c
+#    l= str(d)
+#    l1= len(l)
+#    print(f'Длина цифр ровно {l1}')
+#else:
+#    print(f'{a} не делится на 3 без остатка')
+#if len(l) > 10:
+#    l2= l.replace('3', '0')
+#    print(l2[:6])
+#else:
+#     print('Выводи ошибку')
+# Задача 4
+#a = [1,2,3,4,5,6,7,8,9,10]
+#b = (11,12,13,14,15,16)
+#a.extend(b)
+#a1 = a[0]
+#b1 = a[-1]
+#c = a[len(a)//2]
+#print(f'Первое число {a1}, среднее число {c}, последное число {b1}')
+#a={}
+#name = input('Напишите имя ').capitalize()
+#surname = input('Напишите фамилию ').capitalize()
+#born_years = int(input('Год рождение '))
+#city = input('Напишите название города' ).capitalize()
+#a = {name, surname, born_years, city}
+#print(a)
+#if born_years in range(1910, 2019):
+#    l = 2022 - born_years
+#    print(f'Меня зовут {name} {surname}. Мне {l} лет. Я проживаю в городе {city}.')
+#    b={ 'name1': name,
+#        'surname1': surname,
+#      'Years': born_years,
+#        'city1': city
+#      }
+#    print(b)
+#else:
+#    print(' Вне диапазона')
+#a = int(input('Первое число'))
+#b = int(input('второе число'))
+#c = int(input('Ответ'))
+#
+#if c==a * b:
+#    print('correct')
+#else:
+#    print('wrong')
+#a = input('Первое слово')
+#b = input('Второе слово')
+#c = len(a)
+#d = len(b)
+#if c > d:
+#    l = c - d
+#    print(f'Первое слово {a} длинее от слово {b} и больше на {l} символов')
+#elif c==d:
+#    print(f'Длина двух слов: {a} и {b} одинаковые')
+#else:
+#№    l = d - c
+#    print(f'Второе слово {b} длинее от слово {a} и больше на {l} символов')
+# 9 Задача
+#a=False or (True or (2 < 3))
+#b = (2 > 3) and (3 < 4) or True
+#c = '123'== True
+#d = not ((None == False) and (25 >= 25)) and ("123" == 123)
+#print(c)
+#yoda = ['on Python', 'programming ', 'I like ']
+#a = (yoda[2]+yoda[1]+ yoda[0])
+#print(a) 
+#print(data)
+#Задача 10
+#marks = {}
+#a = int(input('Оценка Билла '))
+#b = int(input('Оценка Джейн '))
+#c = int(input('Оценка Джон '))
+#d = int(input('Оценка Мэри '))
+#l = (a + b +  + Mary) / 4
+#a.__ceil__()
+#marks = {
+#
+#}
+wather_dict = {'base': 'stations',
+  'clouds': {'all': 100},
+  'datetime': '2022-10-26 11:33:21.774524',
+  'main': {'feels_like': 6.57,
+           'grnd_level': 925,
+           'humidity': 71,
+           'pressure': 1022,
+           'sea_level': 1022,
+           'temp': 9.18,
+           'temp_max': 9.18,
+           'temp_min': 9.18},
+  'name': 'Almaty',
+  'rain': {'1h': 1.26},
+  'sys': {'country': 'KZ', 'sunrise': 1666747131, 'sunset': 1666785198},
+3  'timezone': 21600,
+#  'visibility': 10000,
+#  'weather': [{'description': 'moderate rain',
+#               'icon': '10d',
+#               'id': 501,
+#               'main': 'Rain'}],
+#  'wind': {'deg': 262, 'gust': 9.09, 'speed': 4.99}}
+#data = wather_dict['datetime'].split()
+#print(data)
+#time = data[1].split('.')
+#print(time)

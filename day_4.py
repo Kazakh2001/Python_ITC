@@ -1,0 +1,21 @@
+#a=(input(' Как вас зовут?:  '))
+#print('Меня зовут ' +  a*2 + ' go')
+#='Hello world'
+#pr#int(a.replace('l', 'c'))
+#pr#int(a.count('l'))
+#p#rint(a.title())
+#print(a.upper())
+#print(list(a))
+#print('_'.join(a))
+#print(a.isdigit())
+#print(a.isupper())
+#p#rint(a[:4])
+#print(isinstance(a, str))
+#print(abs(-5))
+#print(pow(3, 2))
+#p#rint(len(a))
+#b=a.split()
+#print(b)
+#a=[]
+#rint(a)
+git 
